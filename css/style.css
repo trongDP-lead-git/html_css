@@ -376,3 +376,21 @@ li {
   font-size: 22px;
   margin-right: 8px;
 }
+
+.countdown {
+  display: flex;
+  margin-top: 300px;
+  gap: 200px;
+  justify-content: center;
+}
+
+.countdown h2 {
+  font-size: 62px;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+
+.countdown p {
+  color: #767e7e;
+  text-align: center;
+}
