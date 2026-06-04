@@ -81,6 +81,7 @@ h1 {
 
 .hero .content p:first-child {
   margin-bottom: 18px;
+  color: #767e7e;
 }
 
 .hero .content h1 {
@@ -94,6 +95,7 @@ h1 {
   line-height: 32px;
   margin-bottom: 40px;
   text-align: justify;
+  color: #767e7e;
 }
 
 .hero .content .get-started {
@@ -473,4 +475,43 @@ li {
   height: 70px;
   left: 600px;
   bottom: 70px;
+}
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.admit {
+  display: flex;
+  height: 272px;
+  align-items: center;
+  background: #def6f5;
+  margin-top: 130px;
+}
+.admit .content {
+  margin-left: 100px;
+}
+.admit .content1 {
+  color: #0d1111;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.admit .content2 {
+  color: #767e7e;
+}
+
+.admit .get-started {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  margin-left: 350px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: var(--color);
+  color: white;
+  border-radius: 20px;
 }
