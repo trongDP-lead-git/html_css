@@ -60,6 +60,7 @@ h1 {
   color: black;
 }
 .header .sign-in {
+  color: black;
   text-decoration: none;
 
   margin-right: 15px;
@@ -278,4 +279,100 @@ h1 {
   text-align: justify;
   line-height: 27px;
   color: #9da6a5;
+}
+
+/*     courses =================== */
+.courses {
+  margin-top: 100px;
+}
+
+.courses .content {
+  margin-bottom: 50px;
+}
+
+.courses .content p:first-child {
+  color: #767e7e;
+  font-size: 12px;
+  margin-bottom: 18px;
+}
+
+.courses .content-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .content-con p:first-child {
+  color: #767e7e;
+  width: 675px;
+  font-size: 18px;
+  margin-top: 18px;
+  line-height: 28px;
+}
+
+.courses .content-con a {
+  text-decoration: none;
+  color: var(--color);
+  font-weight: 500;
+  line-height: px;
+}
+
+.courses .content-con a:hover {
+  font-weight: 700;
+}
+
+.courses .image {
+  display: flex;
+  gap: 47px;
+}
+.courses .image,
+.image2,
+.image3 {
+  position: relative;
+}
+
+.courses .image img {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.courses .content-img {
+  position: absolute;
+  width: 325px;
+  height: 195px;
+  background: white;
+  border-radius: 10px;
+  top: 322px;
+  left: 18px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.courses .content-img h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 18px;
+  margin-left: 25px;
+}
+.courses .content-img p,
+li {
+  color: #767e7e;
+  margin-top: 18px;
+  margin-left: 25px;
+  line-height: 20px;
+  width: 200px;
+}
+
+.courses .content-img ol {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.courses .content-img li::before {
+  content: "•";
+  color: var(--color);
+  font-size: 22px;
+  margin-right: 8px;
 }
